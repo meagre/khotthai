@@ -505,6 +505,8 @@ footer .copyright {
   .welcome-row-right h2 {
     padding-top: 128px;
   }
+
+
 }
 
 /* Large devices (large desktops, 1200px and up) */
@@ -582,4 +584,11 @@ footer .copyright {
 
 iframe {
   display: block;
+}
+
+
+@media (min-width: 960px) {
+  .our-menu .our-menu-left {
+    padding-right: 16px;
+  }
 }
