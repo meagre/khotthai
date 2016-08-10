@@ -13,6 +13,10 @@ body {
   display: none;
 }
 
+.hidden-on-desktop {
+  display: inherit;
+}
+
 .khot-red {
   color: #ee2737;
 }
@@ -344,6 +348,10 @@ footer .copyright {
     display: inherit;
   }
 
+  .hidden-on-desktop {
+    display: none;
+  }
+
 
 
 
@@ -591,4 +599,32 @@ iframe {
   .our-menu .our-menu-left {
     padding-right: 16px;
   }
+}
+
+
+
+
+/* iTakeAway small button */
+img.takehome {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  max-width: 72px;
+  max-height: 72px;
+}
+
+img.takehome:hover {
+  opacity: 0.9;
+  filter: alpha(opacity=90); /* For IE8 and earlier */
+}
+
+img.takehome-desktop {
+  max-width: 72px;
+  max-height: 72px;
+  position: relative;
+}
+
+img.takehome-desktop:hover {
+  opacity: 0.9;
+  filter: alpha(opacity=90); /* For IE8 and earlier */
 }
